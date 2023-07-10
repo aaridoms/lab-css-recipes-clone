@@ -22,3 +22,69 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
+header h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 300px;
+}
+
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.subtitulo {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#section1 {
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+#section1 img {
+  padding-top: 10px;
+}
+
+#ingredients {
+  padding-top: 20px;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+#ingredients li {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style-type: none;
+}
+
+#ingredients img {
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+#directions {
+  padding-top: 20px;
+  margin-bottom: 100px;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+#directions li {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
