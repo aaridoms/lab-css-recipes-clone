@@ -53,6 +53,11 @@ hr {
   font-size: 20px;
 }
 
+#section1 article {
+  width: 500px;
+  margin: 0 auto;
+}
+
 #section1 img {
   padding-top: 10px;
 }
@@ -71,8 +76,9 @@ hr {
 }
 
 #ingredients img {
-  margin-left: 550px;
+  margin-left: 600px;
   margin-top: 50px;
+  
 }
 
 #directions {
@@ -87,4 +93,16 @@ hr {
   text-align: justify;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+ol {
+  list-style: none;
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
 }
